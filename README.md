@@ -36,7 +36,7 @@ Asegúrate de editar las variables **gateway_ip** e **interface** dentro del có
 
 ### Ejecución:
 ```
-sudo python3 arp_spoof.py
+sudo python arp_spoof.py
 ```
 ![Captura del script](./img/V1.png)
 
