@@ -16,13 +16,13 @@ Este script en Python utiliza la librería Scapy para realizar un ataque de enve
 
 ## 🛠️ Requisitos previos
 
-# Para ejecutar este script, necesitas:
+### Para ejecutar este script, necesitas:
 
 - Sistema Operativo: Linux (recomendado Kali Linux o Parrot OS).
 - Privilegios: Root/Sudo (necesario para manipular paquetes de red y el reenvío de IP).
 - Python 3.x
 
-# Librerías:
+### Librerías:
 ```
 pip install scapy
 ```
@@ -30,15 +30,15 @@ pip install scapy
 ---
 
 📖 Modo de Uso
-# Configuración de red:
+### Configuración de red:
 
 Asegúrate de editar las variables **gateway_ip** e **interface** dentro del código según tu entorno (por defecto: 192.168.0.1 y eth0).
 
-# Ejecución:
+### Ejecución:
 ```
 sudo python3 arp_spoof.py
 ```
-# Interacción:
+### Interacción:
 El script solicitará la IP del objetivo. Una vez introducida, habilitará automáticamente el **ip_forward** en el sistema para permitir que el tráfico fluya a través de tu máquina.
 
 ---
