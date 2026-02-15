@@ -29,7 +29,7 @@ pip install scapy
 
 ---
 
-📖 Modo de Uso
+## 📖 Modo de Uso
 ### Configuración de red:
 
 Asegúrate de editar las variables **gateway_ip** e **interface** dentro del código según tu entorno (por defecto: 192.168.0.1 y eth0).
@@ -38,6 +38,8 @@ Asegúrate de editar las variables **gateway_ip** e **interface** dentro del có
 ```
 sudo python3 arp_spoof.py
 ```
+![Captura del script](./img/V1.png)
+
 ### Interacción:
 El script solicitará la IP del objetivo. Una vez introducida, habilitará automáticamente el **ip_forward** en el sistema para permitir que el tráfico fluya a través de tu máquina.
 
