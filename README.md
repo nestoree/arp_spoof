@@ -21,7 +21,7 @@ Este script en Python utiliza la librería Scapy para realizar un ataque de enve
 - Sistema Operativo: Linux (recomendado Kali Linux o Parrot OS).
 - Privilegios: Root/Sudo (necesario para manipular paquetes de red y el reenvío de IP).
 - Python 3.x
-- Entorno virtual
+- Entorno virtual (recomendable)
 
 ### Entorno virtual
 ```
