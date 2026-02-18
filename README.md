@@ -48,10 +48,11 @@ Asegúrate de editar las variables **gateway_ip** e **interface** dentro del có
 ```
 sudo python arp_spoof.py
 ```
-![Captura del script](./img/V1.png)
 
 ### Interacción:
 El script solicitará la IP del objetivo. Una vez introducida, habilitará automáticamente el **ip_forward** en el sistema para permitir que el tráfico fluya a través de tu máquina.
+
+![Captura del script](./img/V1.png)
 
 ---
 
